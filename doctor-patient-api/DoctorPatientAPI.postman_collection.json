@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "95f89495-81c4-487e-bc9a-47ef591cd10e",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41004586"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/doctors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Dr. Meena Verma\",\r\n  \"city\": \"NOIDA\",\r\n  \"email\": \"meena.verma@example.com\",\r\n  \"phone\": \"9123456789\",\r\n  \"speciality\": \"GYNECOLOGY\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/doctors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"doctors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/patients",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Priya Kapoor\",\r\n  \"city\": \"Noida\",\r\n  \"email\": \"priya.kapoor@example.com\",\r\n  \"phone\": \"9876501234\",\r\n  \"symptom\": \"DYSMENORRHEA\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/patients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/suggest-doctors/5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Ravi Sharma\",\r\n  \"city\": \"Agra\",\r\n  \"email\": \"ravi.sharma@example.com\",\r\n  \"phone\": \"9876543210\",\r\n  \"symptom\": \"BACK_PAIN\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/suggest-doctors/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"suggest-doctors",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/suggest-doctors/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Dr. Neha Joshi\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"neha.joshi@example.com\",\r\n  \"phone\": \"9222222222\",\r\n  \"speciality\": \"ORTHOPAEDIC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/suggest-doctors/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"suggest-doctors",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/suggest-doctors/3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Amit Sinha\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"amit.sinha@example.com\",\r\n  \"phone\": \"9333333333\",\r\n  \"symptom\": \"EAR_PAIN\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/suggest-doctors/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"suggest-doctors",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
