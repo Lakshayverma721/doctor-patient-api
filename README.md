@@ -14,7 +14,7 @@ This Spring Boot application provides REST APIs to manage doctor and patient rec
 ---
 
 ## 📦 Postman Collection
-[Download Collection](DoctorPatientAPI.postman_collection.json)
+[Download Collection](./https://github.com/Lakshayverma721/doctor-patient-api/blob/master/doctor-patient-api/DoctorPatientAPI.postman_collection.json)
 
 ---
 
