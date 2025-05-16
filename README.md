@@ -23,7 +23,7 @@ This Spring Boot application provides REST APIs to manage doctor and patient rec
 ➕ Add Doctor
 ![image alt](https://github.com/Lakshayverma721/doctor-patient-api/blob/master/doctor-patient-api/Screenshot%202025-05-16%20021501.png?raw=true)
 
-###➕ Add Patient
+➕ Add Patient
 ![image alt](https://github.com/Lakshayverma721/doctor-patient-api/blob/master/doctor-patient-api/Screenshot%202025-05-16%20021547.png?raw=true)
 
 ### 🤖 Suggest Doctor
